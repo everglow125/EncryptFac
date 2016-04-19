@@ -1,0 +1,7 @@
+d:\EntityFac\EncryptFac\EncryptBLLTests\bin\Debug\EncryptBLLTests.dll
+d:\EntityFac\EncryptFac\EncryptBLLTests\bin\Debug\EncryptBLLTests.pdb
+d:\EntityFac\EncryptFac\EncryptBLLTests\bin\Debug\EncryptBLL.dll
+d:\EntityFac\EncryptFac\EncryptBLLTests\bin\Debug\EncryptBLL.pdb
+d:\EntityFac\EncryptFac\EncryptBLLTests\obj\Debug\EncryptBLLTests.csprojResolveAssemblyReference.cache
+d:\EntityFac\EncryptFac\EncryptBLLTests\obj\Debug\EncryptBLLTests.dll
+d:\EntityFac\EncryptFac\EncryptBLLTests\obj\Debug\EncryptBLLTests.pdb

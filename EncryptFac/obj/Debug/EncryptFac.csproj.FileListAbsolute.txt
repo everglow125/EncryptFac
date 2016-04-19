@@ -1,0 +1,11 @@
+d:\EntityFac\EncryptFac\EncryptFac\bin\Debug\EncryptFac.exe.config
+d:\EntityFac\EncryptFac\EncryptFac\bin\Debug\EncryptFac.exe
+d:\EntityFac\EncryptFac\EncryptFac\bin\Debug\EncryptFac.pdb
+d:\EntityFac\EncryptFac\EncryptFac\bin\Debug\EncryptBLL.dll
+d:\EntityFac\EncryptFac\EncryptFac\bin\Debug\EncryptBLL.pdb
+d:\EntityFac\EncryptFac\EncryptFac\obj\Debug\EncryptFac.csprojResolveAssemblyReference.cache
+d:\EntityFac\EncryptFac\EncryptFac\obj\Debug\EncryptFac.Properties.Resources.resources
+d:\EntityFac\EncryptFac\EncryptFac\obj\Debug\EncryptFac.csproj.GenerateResource.Cache
+d:\EntityFac\EncryptFac\EncryptFac\obj\Debug\EncryptFac.exe
+d:\EntityFac\EncryptFac\EncryptFac\obj\Debug\EncryptFac.pdb
+d:\EntityFac\EncryptFac\EncryptFac\obj\Debug\EncryptFac.Form1.resources

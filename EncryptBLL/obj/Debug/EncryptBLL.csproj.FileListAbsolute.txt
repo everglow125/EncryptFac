@@ -1,0 +1,5 @@
+D:\EntityFac\EncryptFac\EncryptBLL\bin\Debug\EncryptBLL.dll
+D:\EntityFac\EncryptFac\EncryptBLL\bin\Debug\EncryptBLL.pdb
+D:\EntityFac\EncryptFac\EncryptBLL\obj\Debug\EncryptBLL.csprojResolveAssemblyReference.cache
+D:\EntityFac\EncryptFac\EncryptBLL\obj\Debug\EncryptBLL.dll
+D:\EntityFac\EncryptFac\EncryptBLL\obj\Debug\EncryptBLL.pdb
