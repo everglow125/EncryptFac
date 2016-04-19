@@ -10,5 +10,6 @@ namespace EncryptBLL
     {
         string Encrypt(EncryptInfo model);
         string Dencrypt(EncryptInfo model);
+        string Check(EncryptInfo model);
     }
 }

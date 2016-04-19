@@ -32,10 +32,17 @@ namespace EncryptFac
         {
             try
             {
+
                 EncryptInfo encrypt = new EncryptInfo(this.txtSource.Text, Encoding.GetEncoding(this.cbxEncode.SelectedValue.ToString()));
                 encrypt.Iv = this.txtIV.Text;
                 encrypt.Key = this.txtKey.Text;
                 IEncrypt obj = (IEncrypt)CreateInstance("EncryptBLL.Encrypt" + this.cbxType.SelectedValue);
+                string checkeMsg = obj.Check(encrypt);
+                if (string.Empty != checkeMsg)
+                {
+                    MessageBox.Show(checkeMsg);
+                    return;
+                }
                 this.txtPassword.Text = obj.Encrypt(encrypt);
             }
             catch (Exception ex)
@@ -52,6 +59,12 @@ namespace EncryptFac
                 encrypt.Iv = this.txtIV.Text;
                 encrypt.Key = this.txtKey.Text;
                 IEncrypt obj = (IEncrypt)CreateInstance("EncryptBLL.Encrypt" + this.cbxType.SelectedValue);
+                string checkeMsg = obj.Check(encrypt);
+                if (string.Empty != checkeMsg)
+                {
+                    MessageBox.Show(checkeMsg);
+                    return;
+                }
                 this.txtPassword.Text = obj.Dencrypt(encrypt);
             }
             catch (Exception ex)

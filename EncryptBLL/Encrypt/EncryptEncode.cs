@@ -18,5 +18,9 @@ namespace EncryptBLL
         {
             return HttpUtility.UrlDecode(model.Source, model.Encode);
         }
+        public string Check(EncryptInfo model)
+        {
+            return "";
+        }
     }
 }

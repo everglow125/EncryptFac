@@ -22,5 +22,9 @@ namespace EncryptBLL
         {
             throw new Exception("该方法没有实现方式");
         }
+        public string Check(EncryptInfo model)
+        {
+            return "";
+        }
     }
 }

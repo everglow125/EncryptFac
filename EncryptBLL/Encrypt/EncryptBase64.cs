@@ -17,6 +17,10 @@ namespace EncryptBLL
         {
             return model.Encode.GetString(Convert.FromBase64String(model.Source));
         }
+        public string Check(EncryptInfo model)
+        {
+            return "";
+        }
 
     }
 }

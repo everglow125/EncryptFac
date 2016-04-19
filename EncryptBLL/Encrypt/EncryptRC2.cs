@@ -46,5 +46,16 @@ namespace EncryptBLL
                 return result;
             }
         }
+        public string Check(EncryptInfo model)
+        {
+            StringBuilder sb = new StringBuilder();
+            if (string.IsNullOrEmpty(model.Key))
+                sb.Append("秘钥不能为空,");
+            else if (model.Key.Length < 5 || model.Key.Length > 16)
+                sb.Append("秘钥长度必须为5-16之间,");
+            if (!string.IsNullOrEmpty(model.Iv) && model.Iv.Length != 8)
+                sb.Append("向量长度必须为8,");
+            return sb.ToString();
+        }
     }
 }

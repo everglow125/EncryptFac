@@ -32,5 +32,15 @@ namespace EncryptBLL
             byte[] Buffer = Convert.FromBase64String(model.Source);
             return model.Encode.GetString(DESDecrypt.TransformFinalBlock(Buffer, 0, Buffer.Length));
         }
+
+        public string Check(EncryptInfo model)
+        {
+            StringBuilder sb = new StringBuilder();
+            if (string.IsNullOrEmpty(model.Key))
+                sb.Append("秘钥不能为空");
+            else if (model.Key.Length != 24)
+                sb.Append("秘钥长度必须为24");
+            return sb.ToString();
+        }
     }
 }

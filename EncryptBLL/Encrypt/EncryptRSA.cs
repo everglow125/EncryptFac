@@ -30,5 +30,9 @@ namespace EncryptBLL
             cipherbytes = rsa.Decrypt(Convert.FromBase64String(model.Source), false);
             return model.Encode.GetString(cipherbytes);
         }
+        public string Check(EncryptInfo model)
+        {
+            return "";
+        }
     }
 }
